@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Buku Tamu</h2>
+
+        <label="Nama Lengkap">Nama Lengkap:</label>
+        <br><input type="text" style="width: 300px; id="Nama Lengkap" name="Nama Lengkap"><br><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+        <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <Label for="Alamat Tinggal"> Alamat Tinggal:</Label>
+        <br><input type="text" style="width: 300px; height: 50px;"  id="Alamat Tinggal" name="Alamat Tinggal"><br><br>
+
+        <Label for="E-mail"> E-mail:</Label>
+        <br><input type="text" style="width: 300px; id="E-mail" name="E-mail"><br><br>
+
+        <label for="media_sosial">Aktif Pada Media Sosial:</label><br>
+            <input type="checkbox" id="facebook" name="media_sosial" value="facebook">
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" id="twitter" name="media_sosial" value="twitter">
+            <label for="twitter">Twitter</label>
+            <input type="checkbox" id="instagram" name="media_sosial" value="instagram">
+            <label for="instagram">Instagram</label>
+            <input type="checkbox" id="path" name="media_sosial" value="path">
+            <label for="path">Path</label><br><br>
+
+      Mengetahui Web ini dari:<br>
+      <select name="mengetahui_web_ini_dari" id="mengetahui_web_ini_dari">
+        <option value="" style="display:none;">--Pilih--</option>
+        <option value="teman">Teman</option>
+        <option value="keluarga">Keluarga</option>
+        <option value="media_sosial">Media Sosial</option>
+      </select><br><br>
+
+      <label="Pesan">Pesan:</label>
+      <br><input type="text" style="width: 300px; height: 50px;" id="Pesan" name="Pesan"><br><br>
+
+      <button type="submit">Kirim</button>
+      <button type="reset">Batal</button>
+    </form>
+</body>
+</html>
