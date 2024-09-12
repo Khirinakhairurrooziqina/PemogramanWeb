@@ -1,0 +1,49 @@
+style
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            position:relative;
+            text-align: center;
+            color:rgb(206, 117, 53);
+        }
+        header img {
+            width: 100%; /* Membuat gambar responsif */
+            height:6cm; /* Mempertahankan rasio aspek */
+        }
+        header h1 {
+            position: absolute; /* Memposisikan judul di atas gambar */
+            top: 30%; /* Jarak dari atas */
+            left: 50%;
+            transform: translateX(-50%); /* Memusatkan teks */
+        }
+        .container {
+            display: flex;
+            flex: 1; /* Memungkinkan container mengisi ruang yang tersisa */
+        }
+        aside {
+            width: 200px; /* Lebar aside */
+            background-color: #9c5214;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            color: #e9d3c0;
+        }
+        section {
+            flex: 1; /* Mengisi sisa ruang */
+            padding: 20px;
+            background-color: #e9934d;
+            color: rgb(73, 36, 1);
+            overflow-y: auto; /* Memungkinkan scroll jika konten terlalu panjang */
+        }
+        footer {
+            background-color:#753d10;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer a {
+            color:white; /* Warna link */
+        }
